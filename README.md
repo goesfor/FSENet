@@ -45,8 +45,7 @@ datasets
 Houston datasets:
 
 ```
-python main.py --data_path ./datasets/Houston/ --source_name Houston13 --target_name Houston18 --patch_size 13 --training_sample_ratio 0.8 --gpu 1 --lambda_1 1.0 --lambda_2 1.0 --GIN_ch 300
-python main.py --data_path ./datasets/Pavia/ --source_name paviaU --target_name paviaC --patch_size 9 --training_sample_ratio 0.8 --gpu 1 --lambda_1 1.0 --lambda_2 1.0 --GIN_ch 150
-python main.py --data_path ./datasets/HyRANK/ --source_name Dioni --target_name Loukia --patch_size 7 --training_sample_ratio 0.8 --gpu 3 --lambda_1 0.01 --lambda_2 10 --GIN_ch 250
-python main.py --data_path ./datasets/WHU/ --source_name HongHu --target_name HanChuan --patch_size 11 --training_sample_ratio 0.8 --gpu 1 --lambda_1 1.0 --lambda_2 1.0 --GIN_ch 130
+python main.py --data_path ./datasets/Houston/ --source_name Houston13 --target_name Houston18 --patch_size 13 --training_sample_ratio 0.8 --gpu 1 --lambda_1 1.0 --lambda_2 1.0 
+python main.py --data_path ./datasets/Pavia/ --source_name paviaU --target_name paviaC --patch_size 9 --training_sample_ratio 0.8 --gpu 1 --lambda_1 1.0 --lambda_2 1.0 
+
 ```
